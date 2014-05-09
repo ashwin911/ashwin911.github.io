@@ -17,31 +17,12 @@
     background-repeat: repeat repeat;
 }
 
-#text {
-    float: left;
-    font-size: 9em;
-    width: 65.868429%;
-    height: auto;
-    text-align: center;
-    font-weight: 500;
-    line-height: 1em;
-    margin-left: 17.068754%;
-    margin-top: 132px;
-    clear: none;
-    min-height: 164px;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    opacity: 0.77;
-    letter-spacing: 0.2em;
-    font-family: wire-one;
-}
-
 #input {
     float: left;
     height: 69px;
     font-size: 2em;
     margin-left: 37.020068%;
-    margin-top: 94px;
+    margin-top: 8.020306%;
     clear: both;
     width: 11.826116%;
     border-top-left-radius: 12px;
@@ -74,7 +55,7 @@
     position: static;
     top: 0px;
     left: 0px;
-    margin-top: 68px;
+    margin-top: 3.60889%;
     margin-left: 34.137508%;
     border-top-left-radius: 33px;
     border-top-right-radius: 33px;
@@ -83,7 +64,7 @@
     background-color: rgba(32, 87, 177, 0.380392);
 }
 
-#text1 {
+#text {
     float: left;
     font-size: 1em;
     width: 86.862702%;
@@ -109,7 +90,7 @@
     height: 69px;
     font-size: 2em;
     margin-left: 2.353151%;
-    margin-top: 94px;
+    margin-top: 8.020306%;
     clear: none;
     width: 11.826116%;
     border-top-left-radius: 12px;
@@ -130,8 +111,29 @@
     margin-right: 0%;
 }
 
-@media only screen and (max-width: 1248px) {
-    #text1 {
+#image {
+    float: left;
+    width: auto;
+    max-width: 17.036099%;
+    height: auto;
+    margin-left: 41.495804%;
+    margin-top: 44px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box1 {
+    float: left;
+    height: 251px;
+    margin-left: 0%;
+    margin-top: 46.90625px;
+    clear: both;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1256px) {
+    #text {
         height: auto;
         min-height: 0px;
     }
@@ -152,11 +154,6 @@
         height: 14.441417%;
     }
 
-    #text {
-        width: 65.866342%;
-        font-size: 8em;
-    }
-
     #input1 {
         margin-top: 55px;
         margin-left: 2.357434%;
@@ -167,24 +164,19 @@
 }
 
 @media only screen and (max-width: 900px) {
-    #text {
-        font-size: 6em;
-        width: 65.85972%;
-    }
-
     #box {
-        width: 48.798785%;
-        margin-top: 34px;
+        width: 48.797251%;
+        margin-top: 22.640625px;
         margin-left: 25.596005%;
         clear: both;
-        height: 15.531335%;
+        height: 12.26158%;
     }
 
     #input {
         margin-top: 57px;
         margin-left: 31.733247%;
         clear: both;
-        width: 17.065538%;
+        width: 17.064003%;
         height: 69px;
     }
 
@@ -192,58 +184,82 @@
         margin-top: 57px;
         margin-left: 2.409334%;
         clear: none;
-        width: 17.056333%;
+        width: 17.053265%;
         height: 69px;
+    }
+
+    #image {
+        margin-top: 32.24225616455078px;
+        margin-left: 40.265249%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 19.465922%;
+    }
+
+    #box1 {
+        width: 100%;
+        height: 251px;
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 651px) {
     #input {
-        margin-top: 26px;
-        margin-left: 15.927553%;
+        margin-top: 3.169502%;
+        margin-left: 15.926622%;
         clear: both;
-        width: 32.899536%;
+        width: 32.899031%;
         height: 69px;
     }
 
     #box {
-        width: 68.260942%;
-        margin-top: 44px;
-        margin-left: 15.927553%;
+        width: 68.203619%;
+        margin-top: 3.481013%;
+        margin-left: 15.926622%;
         clear: both;
-        height: 18.80109%;
+        height: 11.444142%;
     }
 
     #text {
-        width: 82.932692%;
-        font-size: 5em;
         height: auto;
-        min-height: 101px;
-        margin-top: 132px;
-        margin-left: 8.530146%;
+        min-height: 0px;
+        margin-top: 24px;
+        margin-left: 6.764056%;
         clear: none;
-    }
-
-    #text1 {
-        height: auto;
-        min-height: 209px;
     }
 
     #input1 {
-        margin-top: 26px;
-        margin-left: 2.37069%;
+        margin-top: 3.169502%;
+        margin-left: 2.373418%;
         clear: none;
-        width: 31.734914%;
+        width: 31.734573%;
         height: 69px;
+    }
+
+    #image {
+        margin-top: 22px;
+        margin-left: 33.902789%;
+        clear: none;
+        height: auto;
+        width: auto;
+        max-width: 31.848299%;
+    }
+
+    #box1 {
+        margin-top: 7.171875px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        height: 251px;
     }
 }
 
 @media only screen and (max-width: 348px) {
     #input {
-        margin-top: 14px;
-        margin-left: 0%;
+        margin-top: 23px;
+        margin-left: -0.05387931%;
         clear: both;
-        width: 48.796695%;
+        width: 48.788462%;
         height: 69px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
@@ -253,7 +269,7 @@
 
     #box {
         width: 100%;
-        margin-top: 23px;
+        margin-top: 37px;
         margin-left: 0%;
         clear: both;
         border-top-left-radius: 0px;
@@ -263,27 +279,35 @@
         height: 16.689373%;
     }
 
-    #text {
-        width: 87.697557%;
-        height: auto;
-        min-height: 127px;
-        margin-top: 21px;
-        margin-left: 6.133261%;
-        clear: none;
-        font-weight: 500;
-        font-size: 4.4em;
-    }
-
     #input1 {
-        margin-top: -69px;
-        margin-left: 51.198815%;
-        clear: both;
-        width: 48.805675%;
+        margin-top: 23px;
+        margin-left: 2.406609%;
+        clear: none;
+        width: 48.798077%;
         height: 69px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
     }
+
+    #image {
+        height: auto;
+        width: auto;
+        max-width: 48.588223%;
+        margin-top: 49px;
+        margin-left: 25.597162%;
+        clear: none;
+    }
+
+    #box1 {
+        float: left;
+        height: 251px;
+        margin-left: 0%;
+        margin-top: 46.90625px;
+        clear: both;
+        width: 100%;
+    }
 }
+
 
