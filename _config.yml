@@ -1,2 +1,3 @@
 name: Four Eyed Cat Dev Blog
 pygments: true
+markdown: redcarpet 
