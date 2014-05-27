@@ -13,32 +13,66 @@
         <div id="box" class="clearfix">
             <div id="nav_background" class="clearfix">
                 <div id="nav_content" class="clearfix">
-                     {% include nav.html %}
+                     <nav class="nav-primary" role="navigation" >
+    <ul>
+       
+
+        
+        <li>
+        	<a  href="/index.html">Home</a>
+        </li>
+        
+        
+        
+        
+   
+        <li>
+        	<a  href="/about.html">About</a>
+        </li>
+        
+   
+        <li>
+        	<a  href="/index.html"></a>
+        </li>
+        
+        <br>
+        <li>
+        	<a  href="http://www.twitter.com/foureyedcat/">Twitter</a>
+            </li>
+        <li>
+            <a  href="mailto:info@foureyedcat.com">E-mail</a>
+        </li>
+        
+        
+    </ul>
+    
+</nav>
+
                 </div>
                    
             </div>
                    
             <div id="white_box" class="clearfix">
                 <div id="content" class="clearfix">
-                     <h1>{{ page.title }}</h1>
-                   {{ page.date | date: "%d %B %Y" }}
+                     <h1>New Level Preview</h1>
+                   27 May 2014
                     <br>
                     <br>
                     
-                    {{content}}
+                    <p>Here is a screenshot of a level I just created
+<img src="/img/screenshots/kickingballs/Screen%20Shot%202014-05-27%20at%2020.06.36.png" alt="My helpful screenshot"></p>
+
                     <br>
                 </div>
             </div>
             <br>
             
-            {% assign showDisqus = true %}
             
-                {% if page.tags contains 'nodisqus' %}
-                     {% assign showDisqus = false %}
-                {% endif %}
+            
+                
         
             
-            {% if showDisqus %}
+            
             
             <div id="white_box" class="clearfix">
                 <div id="content" class="clearfix">
@@ -59,7 +93,7 @@
     
                 </div>
             </div>
-            {% endif %}
+            
             <br>
             <br>
 

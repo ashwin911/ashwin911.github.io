@@ -7,10 +7,10 @@
     width: 100%;
     position: relative;
     background-image:-webkit-linear-gradient(270deg,rgb(59,209,245) 0%,rgb(81,132,246) 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
     background-attachment: scroll;
     background-size: auto;
-    background-position: 0% 0%;
-    background-repeat: repeat repeat;
 }
 
 #input {
@@ -18,15 +18,21 @@
     height: 69px;
     font-size: 2em;
     margin-left: 37.020068%;
-    margin-top: 8.020306%;
+    margin-top: 8.021295%;
     clear: both;
     width: 11.826116%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    border-style: none;
-    border-width: 4px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
     background-color: rgba(0, 143, 206, 0.741176);
     display: block;
     color: rgb(255, 255, 255);
@@ -44,14 +50,14 @@
 
 #box {
     float: left;
-    height: 12.26158%;
+    height: 9.969365%;
     clear: both;
     width: 31.73389%;
     display: block;
     position: static;
     top: 0px;
     left: 0px;
-    margin-top: 3.60889%;
+    margin-top: 3.227913%;
     margin-left: 34.137508%;
     border-top-left-radius: 33px;
     border-top-right-radius: 33px;
@@ -86,15 +92,21 @@
     height: 69px;
     font-size: 2em;
     margin-left: 2.353151%;
-    margin-top: 8.020306%;
+    margin-top: 8.021295%;
     clear: none;
     width: 11.826116%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    border-style: none;
-    border-width: 4px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
     display: block;
     color: rgb(255, 255, 255);
     font-family: wire-one;
@@ -109,21 +121,24 @@
 
 #image {
     float: left;
-    width: auto;
-    max-width: 17.036099%;
+    width: 29.999208%;
+    max-width: none;
     height: auto;
-    margin-left: 41.495804%;
-    margin-top: 44px;
     clear: none;
     color: rgb(0, 0, 0);
-    margin-right: 0%;
+    min-width: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+    margin-left: 35.128048%;
 }
 
 #box1 {
     float: left;
     height: 251px;
     margin-left: 0%;
-    margin-top: 46.90625px;
+    margin-top: 46.9375px;
     clear: both;
     width: 100%;
 }

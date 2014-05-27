@@ -1,0 +1,97 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:-webkit-linear-gradient(270deg,rgb(59,209,245) 0%,rgb(81,132,246) 100%);
+    background-attachment: scroll;
+    background-size: auto;
+    position: relative;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#white_box {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 1.375em;
+    clear: none;
+    width: 499.078125px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.780392);
+    margin-right: auto;
+    min-height: 40px;
+}
+
+#content {
+    float: left;
+    height: auto;
+    margin: 4.25785% 20px 20px 5.923421%;
+    clear: none;
+    width: 90.404183%;
+    min-height: 20px;
+}
+
+#nav_background {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 128px;
+    background-color: rgba(32, 87, 177, 0.380392);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-height: 20px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#nav_content {
+    color: rgba(255,255,255,1);
+    float: left;
+    height: auto;
+    margin: 10px 10px 10px 10%;
+    clear: none;
+    width: 77.429199%;
+    min-height: 100px;
+    
+}
+
+
+#box {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 14.65625px;
+    clear: none;
+    width: 800px;
+    margin-right: auto;
+}
+
+#image {
+    float: none;
+    width: 166px;
+    height: auto;
+    margin-left: auto;
+    margin-top: 14px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+    max-width: none;
+}
+

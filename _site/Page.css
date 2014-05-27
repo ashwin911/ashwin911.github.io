@@ -6,11 +6,7 @@
     min-height: 100%;
     width: 100%;
     position: relative;
-    background-color: rgb(59,209,245); /* for non-css3 browsers */
-    background-image: -ms-linear-gradient(top, rgb(59,209,245) 0%,rgb(81,132,246) 100%);
-
     background-image:-webkit-linear-gradient(270deg,rgb(59,209,245) 0%,rgb(81,132,246) 100%);
-   background-image: -moz-linear-gradient(top, rgb(59,209,245) 0%,  rgb(81,132,246) 100%); /* for       firefox 3.6+ */
     background-attachment: scroll;
     background-size: auto;
     background-position: 0% 0%;
@@ -309,5 +305,4 @@
         width: 100%;
     }
 }
-
 

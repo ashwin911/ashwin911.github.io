@@ -1,0 +1,40 @@
+
+
+
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+	<link rel="stylesheet" href="/boilerplate.css" />
+	<link rel="stylesheet" href="/FrontPage.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    </head>
+    <body>
+
+        <div id="primaryContainer" class="primaryContainer clearfix">
+            <img id="image" src="/img/Logo.png" class="image" />
+            <div id="box" class="clearfix">
+                <div id="nav_background" class="clearfix">
+                    <div id="nav_content" class="clearfix">
+                         {% include nav.html %}
+                    </div>
+                       
+                    </div>
+                
+                
+                    <ul>
+                        {{content}}
+                     </ul>
+                  
+                
+                <!-- This loops through the paginated posts -->
+                
+            </div>
+                 <br>
+        <br>
+        </div>
+       
+    </body>
+ </html>
+ 
+{% include foot.html %}
