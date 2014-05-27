@@ -1,15 +1,5 @@
 
-
-
-<html>
-    <!-- This code is only meant for previewing your Reflow design. -->
-    <head>
-	<link rel="stylesheet" href="/boilerplate.css" />
-	<link rel="stylesheet" href="/FrontPage.css" />
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-    </head>
-    <body>
+{% include head.html %}
 
         <div id="primaryContainer" class="primaryContainer clearfix">
             <img id="image" src="/img/Logo.png" class="image" />
@@ -19,12 +9,12 @@
                          {% include nav.html %}
                     </div>
                        
-                    </div>
+                </div>
                 
                 
-                    <ul>
+                    
                         {{content}}
-                     </ul>
+                     
                   
                 
                 <!-- This loops through the paginated posts -->
@@ -34,7 +24,6 @@
         <br>
         </div>
        
-    </body>
- </html>
+ 
  
 {% include foot.html %}

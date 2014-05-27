@@ -1,0 +1,29 @@
+/* This code is only meant for previewing your Reflow design. */
+
+
+#footerbox {
+    float: left;
+    height: 59px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(69, 59, 147);
+}
+
+#footertext {
+    float: none;
+    font-size: 1em;
+    width: 15.896137%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 21px;
+    clear: none;
+    min-height: 25px;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.780392);
+}
+

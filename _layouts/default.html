@@ -1,12 +1,5 @@
-<html>
-    <!-- This code is only meant for previewing your Reflow design. -->
-    <head>
-	<link rel="stylesheet" href="/boilerplate.css" />
-	<link rel="stylesheet" href="/FrontPage.css" />
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-    </head>
-    <body>
+
+{% include head.html %}
 
     <div id="primaryContainer" class="primaryContainer clearfix">
         <img id="image" src="/img/Logo.png" class="image" />
@@ -21,9 +14,11 @@
             <div id="white_box" class="clearfix">
                 <div id="content" class="clearfix">
                      <h1>{{ page.title }}</h1>
-                   {{ page.date | date: "%d %B %Y" }}
-                    <br>
-                    <br>
+                      <p class="author">
+                        <span class="date"><h5>{{ page.date | date: "%d %B %Y" }}</h5></span>
+                    </p><br>
+                    
+                   
                     
                     {{content}}
                     <br>
@@ -70,8 +65,5 @@
               
     </div>
 
-    </body>
-    
-    
 
-</html>
+{% include foot.html %}
