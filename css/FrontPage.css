@@ -69,9 +69,17 @@ p{
     margin-right: auto;
     min-height: 40px;
 }
+#sharingbutton {
+    float: left;
+    height: auto;
+    margin: 5.923421% 5.923421% 0% 5.923421%;
+    clear: none;
+    width: 100%;
+    min-height: 0px;
+}
 
 #content {
-    float: left;
+    float: none;
     height: auto;
     margin: 5.923421% 5.923421% 5.923421% 5.923421%;
     clear: none;
