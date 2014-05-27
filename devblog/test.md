@@ -1,11 +1,12 @@
 ---
-layout: recipe
-title: Gingerbread
+layout: default
+title: test
 recipe-attribution: HungryJenny
 recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
 ---
 Makes about 15 small cookies.
 
+## Ingredients
 
 * 175g plain flour
 * 90g brown sugar
@@ -17,7 +18,7 @@ Makes about 15 small cookies.
 * 1 tsp bicarbonate of soda
 * Icing sugar to dust
 
-
+## Method
 
 1. Sift the flour, ginger, cinnamon and bicarbonate of soda into a large mixing bowl.
 2. Use your fingers to rub in the diced butter. Mix in the sugar.

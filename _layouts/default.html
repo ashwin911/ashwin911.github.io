@@ -1,7 +1,30 @@
 {% include head.html %}
 
-    <h1>{{ page.title }}</h1>
+<!DOCTYPE html>
+<html>
+  
+    <body>
+        
+         <div id="primaryContainer" class="primaryContainer clearfix">
+        <img id="image" src="/img/Logo.png" class="image" />
+        <div id="box" class="clearfix">
+            <p id="text">
+                
 
     {{ content }}
- {% include nav.html %}
+        
+        </p>
+        </div>
+        <a href="https://twitter.com/foureyedcat">
+            <input id="input" type="button" value="Twitter"></input>
+        </a>
+        <a href="mailto:info@foureyedcat.com">
+            <input id="input1" type="button" value="Email"></input>
+        </a>
+        <div id="box1" class="clearfix">
+        </div>
+    </div>
+    </body>
+
+ 
 {% include foot.html %}
