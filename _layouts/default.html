@@ -2,7 +2,7 @@
 {% include head.html %}
 
     <div id="primaryContainer" class="primaryContainer clearfix">
-        <img id="image" src="/img/Logo.png" class="image" />
+        <a href="/index.html"><img id="image" src="/img/Logo.png" class="image" /></a>
         <div id="box" class="clearfix">
             <div id="nav_background" class="clearfix">
                 <div id="nav_content" class="clearfix">
@@ -14,6 +14,7 @@
             <div id="white_box" class="clearfix">
                 <div id="content" class="clearfix">
                      <h1>{{ page.title }}</h1>
+                    <hr>
                       <p class="author">
                         <span class="date"><h5>{{ page.date | date: "%d %B %Y" }}</h5></span>
                     </p><br>
