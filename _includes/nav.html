@@ -6,19 +6,25 @@
         <li>
         	<a  href="/index.html">Home</a>
         </li>
-        
-        
-        
+
         {% for p in site.pages %}
-   
-        <li>
-        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
-        </li>
+        
+        {%  assign post = true %} 
+        {% if p.title contains 'Tag:' %}
+        {% assign post = false %} 
+        {% endif %}
+        
+          {% if post %}
+            <li>
+                <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endif %}
         {% endfor %}
         <br>
+        
         <li>
         	<a  href="http://www.twitter.com/foureyedcat/">Twitter</a>
-            </li>
+        </li>
         <li>
             <a  href="mailto:info@foureyedcat.com">E-mail</a>
         </li>

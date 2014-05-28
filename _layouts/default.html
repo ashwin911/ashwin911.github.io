@@ -1,8 +1,8 @@
 
 {% include head.html %}
 
-    <div id="primaryContainer" class="primaryContainer clearfix">
-        <a href="/index.html"><img id="image" src="/img/Logo.png" class="image" /></a>
+
+        
         <div id="box" class="clearfix">
             <div id="nav_background" class="clearfix">
                 <div id="nav_content" class="clearfix">
@@ -24,7 +24,31 @@
                     {{content}}
                     <br>
                     <!-- Go to your Addthis.com Dashboard to update any options -->
-<div class="addthis_sharing_toolbox"></div>
+                    <div class="addthis_sharing_toolbox"></div>
+                    
+                    <h5>
+                        {% for p in site.pages %}
+        
+                            {%  assign post = false %} 
+                            {% if p.title contains 'Tag:' %}
+                            {% assign post = true %} 
+                            {% endif %}
+                             {% if p.title contains 'nodisqus' %}
+                            {% assign post = false %} 
+                            {% endif %}    
+                                        
+                              {% if post %}
+                                {% for tag in page.tags %} 
+                                    
+                                {% if p.title contains tag %}       
+                                    <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}"> {{ p.title }}</a>
+                                        {% endif %}
+                        {% endfor %}
+                            {% endif %}
+                        
+                        {% endfor %}
+                   </h5>  
+                    
                 </div>
             </div>
           
@@ -66,7 +90,7 @@
   
            
               
-    </div>
+    
 
 
 {% include foot.html %}

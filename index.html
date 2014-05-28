@@ -2,10 +2,6 @@
 layout: front
 ---
 
-<html>
-    <!-- This code is only meant for previewing your Reflow design. -->
-    
-    <body>
                         
             {% for post in paginator.posts %}
 
@@ -23,9 +19,10 @@ layout: front
                     </p><br>
                     <div class="content">
                         {{ post.excerpt }}
-                        <br>
-                       <a href="{{ post.url }}"> more..</a>
-                    </div>    
+                        
+                       <br>
+                    </div>
+                    <span ><a href="{{ post.url }}"> continue reading &raquo;</a></span>
                 </div>
             </div>
             {% endfor %}
@@ -65,6 +62,5 @@ layout: front
             </div>
         </div>
     {% endif %}
-    </body>
-
-</html>
+        
+  

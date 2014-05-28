@@ -3,12 +3,12 @@
 
 #footerbox {
     float: left;
-    height: 59px;
+    height: 100px;
     margin-left: 0%;
     margin-top: 0px;
     clear: none;
     width: 100%;
-    background-color: rgb(69, 59, 147);
+    background-color: rgb(69, 59, 147,0);
 }
 
 #footertext {
@@ -25,5 +25,6 @@
     min-height: 25px;
     margin-right: auto;
     color: rgba(255, 255, 255, 0.780392);
+    text-shadow: 2px 2px 5px rgba(89, 63, 95, 0.38);
 }
 

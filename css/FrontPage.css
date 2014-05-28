@@ -56,7 +56,7 @@ p{
     margin-left: auto;
     margin-top: 1.375em;
     clear: none;
-    width: 499.078125px;
+    width: 600px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -68,6 +68,7 @@ p{
     background-color: rgba(255, 255, 255, 0.780392);
     margin-right: auto;
     min-height: 40px;
+    box-shadow:5px 8px 10px 2px rgba(98, 43, 118, 0.26);	
 }
 #sharingbutton {
     float: left;
@@ -91,7 +92,7 @@ p{
     float: left;
     height: auto;
     clear: none;
-    width: 128px;
+    width: 100px;
     background-color: rgba(32, 87, 177, 0.380392);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -103,14 +104,15 @@ p{
     left: 0px;
     margin-top:  1.375em;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: auto;
+    box-shadow:3px 4px 5px 2px rgba(75, 29, 63, 0.57);
 }
 
 #nav_content {
     color: rgba(255,255,255,1);
     float: left;
     height: auto;
-    margin: 10px 10px 10px 10%;
+    margin: 20px 10px 20px 20px;
     clear: none;
     width: 77.429199%;
     min-height: 100px;
@@ -124,16 +126,17 @@ p{
     margin-left: auto;
     margin-top: 14.65625px;
     clear: none;
-    width: 800px;
+    width: 850px;
     margin-right: auto;
 }
 
-#image {
+#logo {
     float: none;
     width: 166px;
     height: auto;
     margin-left: auto;
-    margin-top: 14px;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
     clear: none;
     color: rgb(0, 0, 0);
     margin-right: auto;
