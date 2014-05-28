@@ -1,7 +1,7 @@
 ---
 layout: default
 title: New Level Preview
-date:  2014-05-27 20:51:00
+date:  2014-05-27 22:51:00 Europe/Amsterdam
 tags: 
 - gamedev
 ---

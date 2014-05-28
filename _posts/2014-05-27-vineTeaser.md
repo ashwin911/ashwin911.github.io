@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teaser
-date:  2014-05-27 19:51:00
+date:  2014-05-27 19:51:00 Europe/Amsterdam
 tags: 
 - gamedev
 ---
