@@ -1,0 +1,104 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(222, 222, 216);
+    position: relative;
+}
+
+#box {
+    float: none;
+    height: 64.188577%;
+    margin-left: auto;
+    clear: none;
+    width: 97.875221%;
+    margin-top: 0px;
+    margin-right: auto;
+}
+
+#text1 {
+    float: none;
+    font-size: 1em;
+    width: 78.760975%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 74px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(77, 87, 78);
+    margin-right: auto;
+}
+
+#box1 {
+    float: none;
+    height: 178px;
+    clear: none;
+    width: 98.904454%;
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 28.646528%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 35.67577%;
+    margin-top: 86px;
+    clear: none;
+    min-height: 42px;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#text {
+    float: none;
+    font-size: 1em;
+    width: 30.682195%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 64px;
+    clear: none;
+    min-height: 23px;
+    margin-right: auto;
+}
+
+#textspan {
+    float: none;
+    font-size: 3em;
+    line-height: 1em;
+    color: rgb(56, 65, 57);
+}
+
