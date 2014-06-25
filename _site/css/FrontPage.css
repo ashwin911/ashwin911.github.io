@@ -12,7 +12,7 @@ h1{
 h5{
     color: #476daa;
     margin-top:2px;
-    margin-bottom: 2px; 
+    margin-bottom: 4px; 
     padding-bottom: 2px;
 }
 
@@ -34,10 +34,9 @@ a:hover {
   text-decoration: underline;
 }
 p{
- color: #384372;
-     margin-top:2px;
-    margin-bottom: 2px; 
-    padding-bottom: 10px;
+ color: #384372;  
+    margin-bottom: 4px; 
+    padding-bottom: 5px;
 }
 .primaryContainer {
     height: auto;

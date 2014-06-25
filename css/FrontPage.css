@@ -34,7 +34,9 @@ a:hover {
   text-decoration: underline;
 }
 p{
- color: #384372;   
+ color: #384372;  
+    margin-bottom: 4px; 
+    padding-bottom: 5px;
 }
 .primaryContainer {
     height: auto;
