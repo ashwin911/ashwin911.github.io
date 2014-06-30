@@ -167,11 +167,12 @@ width: 501.07812309999997px;
     
     margin-right: auto;
     
-    color: rgb(47, 83, 181);
+    color: rgb(83, 115, 203);
     float: left;
     font: 2em;
     line-height: 1em;
     margin: 0 0 0 5.007952%;
+    padding-bottom: 5px;
     min-height: 40px;
     text-align: left;
     
@@ -183,7 +184,7 @@ width: 501.07812309999997px;
 }
 
 #emailButton{
- background: rgb(47, 83, 181);
+ background: rgb(83, 115, 203);
 border-radius: 10px;
 color: rgb(255, 255, 255);
 float: right;
