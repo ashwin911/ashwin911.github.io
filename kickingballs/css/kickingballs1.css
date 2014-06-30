@@ -1,0 +1,206 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(0, 226, 148);
+}
+
+#box5 {
+    float: none;
+    height: 151px;
+    margin-left: auto;
+    margin-top: 46.921875px;
+    clear: none;
+    width: 100%;
+    margin-right: auto;
+    background-color: rgb(198, 241, 115);
+}
+
+#image2 {
+    float: none;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-top: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-width: 91.489362%;
+    margin-right: auto;
+}
+
+#box2 {
+    float: none;
+    height: 20.125em;
+    margin-left: auto;
+    margin-top: 143px;
+    clear: none;
+    width: 644px;
+    margin-right: auto;
+}
+
+#box {
+    float: left;
+    height: 6.4375em;
+    margin-left: 0%;
+    clear: none;
+    width: 100%;
+    margin-top: 27px;
+}
+
+#box3 {
+    float: none;
+    height: 445px;
+    margin-left: auto;
+    margin-top: 64px;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    margin-right: auto;
+}
+
+#image1 {
+    float: left;
+    width: 84px;
+    height: auto;
+    margin-left: 9.830729%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    max-width: 100%;
+}
+
+#image {
+    float: left;
+    width: 84px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 2.669271%;
+    margin-top: 1px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box6 {
+    float: left;
+    height: 85px;
+    margin-left: 0%;
+    margin-top: 417.078125px;
+    clear: none;
+    width: 100%;
+}
+
+#box1 {
+    float: left;
+    height: 84px;
+    margin-left: 71.972965%;
+    margin-top: 18px;
+    clear: none;
+    width: 192.00000505px;
+}
+
+#text {
+    float: none;
+    font-size: 2em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 27px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+}
+
+#box4 {
+    float: none;
+    height: 344px;
+    margin-left: auto;
+    margin-top: 42px;
+    clear: none;
+    width: 513px;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 798px) {
+    #image1 {
+        width: auto;
+        margin-top: 0px;
+        margin-left: 17.309707%;
+        clear: none;
+        margin-right: auto;
+        max-width: none;
+        max-height: 100%;
+    }
+
+    #image {
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: 19.099162%;
+        clear: none;
+        width: auto;
+        max-width: 50%;
+        max-height: 100%;
+    }
+
+    #image2 {
+        max-width: 91.49%;
+        margin-top: 25px;
+        clear: none;
+    }
+
+    #box2 {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        clear: both;
+    }
+
+    #box3 {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        margin-left: auto;
+        clear: none;
+    }
+
+    #box5 {
+        width: 100%;
+        height: 151px;
+        margin-top: 1em;
+        clear: none;
+    }
+
+    #box {
+        width: 100%;
+        height: 3em;
+        margin-top: 10px;
+    }
+
+    #box6 {
+        width: 100%;
+        height: 85px;
+    }
+
+    #box1 {
+        width: 170.10526757000002px;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+    }
+
+    #box4 {
+        width: auto;
+        height: 89.119171%;
+    }
+}
