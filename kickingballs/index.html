@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <!-- This code is only meant for previewing your Reflow design. -->
+    
     <head>
         <title>Kicking Balls</title>
 	   <link rel="stylesheet" href="../css/boilerplate.css" />
@@ -26,10 +26,15 @@
         <!-- Magnific Popup core JS file -->
         <script src="../assets/magnific-popup/jquery.magnific-popup.js"></script> 
         
+        
 	   <meta charset="utf-8">
 	   <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-          <div id="primaryContainer" class="primaryContainer clearfix">
+        
+        
+         
     </head>
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        
     <body>
 
   
@@ -50,11 +55,12 @@
                      <center><iframe width="100%" height="300px" src="http://www.youtube.com/embed/4GLttWqSL4o?rel=0" frameborder="0" allowfullscreen></iframe></center>
             </div>
         </div>
+        
         <div id="yellowBox" class="clearfix">
             
-            <!-- Begin MailChimp Signup Form -->
+             <!--Begin MailChimp Signup Form -->
             <div id="emailBox" class="clearfix">
-                <p id ="emailHeader">
+               <p id ="emailHeader">
                 Subscribe for more Kicking Balls News
                 </p>
                 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -71,7 +77,7 @@
             </div>
             
             
-            
+        
 
 
 
@@ -98,12 +104,19 @@
         
         </div> 
 		<div id="yellowBox" class="clearfix">
+            <div id="imageCarrouselHolderBox" class = "clearfix">
+             <div id="reviewCarrousel" class="owl-carousel">
+                 <div class="item"> "A fun and challenging soccer themed game with enough content for hours of fun. 5/5” - <a href="Http://twitter.com/myfttd">@myFTTD</a>
+                 </div>
+        
             </div>
-
+        </div>
+            </div>
+        
         <div id="box6" class="clearfix">
             <p id="text">
             
-            © 2014 Four Eyed Cat
+            © 2014 Four Eyed Cat. All rights reserved. 
             </p>
         </div>
    
@@ -124,12 +137,23 @@
                   itemsDesktopSmall : [979,3]
              
               });
+               
+                $("#reviewCarrousel").owlCarousel({
+             
+                  autoPlay: 3000, //Set AutoPlay to 3 seconds
+             
+                  items : 3,
+                  itemsDesktop : [1199,3],
+                  itemsDesktopSmall : [979,3]
+             
+              });
                 
                $('.test-popup-link').magnificPopup({ 
             type: 'image'
 	           // other options
                });
-           });</script>
+           });
+        </script>
      
     </body>
          </div>
