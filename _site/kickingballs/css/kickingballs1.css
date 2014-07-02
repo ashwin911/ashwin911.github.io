@@ -144,7 +144,21 @@ width: 100%;
     margin-right: auto;
 }
 
+#badgeBox
+{
+	height: 77px;
+	margin: 10px auto;
+	width: 100%;
+}
+#appleBadge
+{
+	margin: 0 auto;
+	max-width: 16.436431%;
+	min-height: 40px;
+}
 
+
+	
 
 
 #emailBox{
@@ -309,6 +323,13 @@ border: none;
         width: auto;
         height: 89.119171%;
     }
+
+#appleBadge {
+		max-width: 160px;
+		min-height: 50px;
+	}
+
+
 #yellowBox {
         width: 100%;
         
