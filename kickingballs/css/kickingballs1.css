@@ -79,7 +79,7 @@ width: 100%;
     background-color: rgb(198, 241, 115);
 }
 
-#image1 {
+#facebookLogo {
     float: left;
     width: 84px;
     height: auto;
@@ -91,16 +91,13 @@ width: 100%;
     max-width: 100%;
 }
 
-#image {
-    float: left;
-    width: 84px;
-    max-width: 100%;
-    height: auto;
-    margin-left: 2.669271%;
-    margin-top: 1px;
-    clear: none;
-    color: rgb(0, 0, 0);
-    margin-right: 0%;
+
+
+#twitterLogo {
+  	float: left;
+	margin: 1px 0 0 2.669271%;
+	max-width: 100%;
+	width: 84px;
 }
 
 #box6 {
@@ -260,7 +257,7 @@ border: none;
 	
 
 @media only screen and (max-width: 798px) {
-    #image1 {
+    #facebookLogo {
         width: auto;
         margin-top: 0px;
         margin-left: 17.309707%;
@@ -270,14 +267,15 @@ border: none;
         max-height: 100%;
     }
 
-    #image {
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: 19.099162%;
-        clear: none;
-        width: auto;
-        max-width: 50%;
-        max-height: 100%;
+
+    #twitterLogo {
+    margin-left: 1%;
+		margin-right: auto;
+		margin-top: 0;
+		max-height: 100%;
+		max-width: 50%;
+        padding-right:10px;
+		width: auto;
     }
 
     #image2 {
@@ -347,6 +345,8 @@ margin-top: 10px;
         width: 100%;
         height: 85px;
     }
+
+
 
     #boxSocial {
        float: none;
