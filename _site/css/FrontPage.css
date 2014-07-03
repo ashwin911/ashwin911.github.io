@@ -175,9 +175,9 @@ p{
     
     width: auto;
     
-    height: 320px;
+    height: auto;
     
-    
+    max-height: 320px;
     margin-left: auto ;
     margin-right: auto;
     margin-bottom: 10px;
