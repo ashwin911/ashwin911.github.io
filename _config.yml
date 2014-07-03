@@ -3,7 +3,7 @@ pygments: true
 markdown: redcarpet 
 paginate: 5
 
-paginate_path: "/page:num"
+paginate_path: "/blog/page:num"
 tag_title_prefix: "Tag: "
 tag_title_suffix: ""
 timezone: Europe/Amsterdam

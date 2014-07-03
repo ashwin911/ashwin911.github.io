@@ -8,5 +8,5 @@ tags:
 
 Here is a screenshot of a level I just created
 <center><br>
-![My helpful screenshot](/img/screenshots/kickingballs/Screen Shot 2014-05-27 at 20.06.36.png)
+<img id = "blogCenteredImage" src="/img/screenshots/kickingballs/Screen Shot 2014-05-27 at 20.06.36.png" >
 </center>

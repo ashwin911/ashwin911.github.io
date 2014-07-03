@@ -9,7 +9,17 @@
 	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 	<script>var __adobewebfontsappname__ = "reflow"</script>
 	<script src="http://use.edgefonts.net/antic:n4:all;wire-one:n4:all.js"></script>
-
+  <link rel="stylesheet" href="/assets/owl-carousel/owl.carousel.css">
+ 
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="/assets/owl-carousel/owl.theme.css">
+ 
+        <!--  jQuery 1.7+  -->
+        <script src="/assets/js/jquery-1.9.1.min.js"></script>
+ 
+        <!-- Include js plugin -->
+        <script src="/assets/owl-carousel/owl.carousel.js"></script>
+        
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5384f7de11ee6e1e"></script>
             <div id="primaryContainer" class="primaryContainer clearfix">
         <a href="/index.html"><img id="logo" src="/img/Logo.png" class="image" /></a>
@@ -20,18 +30,23 @@
 
 
         
-        <div id="box" class="clearfix">
-            <div id="nav_background" class="clearfix">
-                <div id="nav_content" class="clearfix">
-                     <nav class="nav-primary" role="navigation" >
+        <div id="main_box" class="clearfix">
+            <div id="main_box_content" class="clearfix">
+                <div id="nav_box" class = "clearfix">
+                    <div id="nav_background" class="clearfix">
+                        <div id="nav_content" class="clearfix">
+                             <nav class="nav-primary" role="navigation" >
     <ul>
        
 
         
         <li>
         	<a  href="/index.html">Home</a>
+            
         </li>
-
+        <li>
+        <a  href="/blog">Blog</a>
+        </li>
         
         
          
@@ -40,6 +55,16 @@
           
             <li>
                 <a  href="/about.html">About</a>
+            </li>
+        
+        
+        
+         
+        
+        
+          
+            <li>
+                <a  href="/blog/index.html"></a>
             </li>
         
         
@@ -86,6 +111,7 @@
           
         
         <br>
+       
         
         <li>
         	<a  href="http://www.twitter.com/foureyedcat/">Twitter</a>
@@ -99,107 +125,115 @@
     
 </nav>
 
-                </div>
-                   
-            </div>
-                   
-            <div id="white_box" class="clearfix">
-                <div id="content" class="clearfix">
-                     <h1>New Level Preview</h1>
-                    <hr>
-                      <p class="author">
-                        <span class="date"><h5>27 May 2014 22:51 CEST</h5></span>
-                    </p>
-                    <p>Here is a screenshot of a level I just created
+                        </div>
+                           
+                    </div>
+                </div>   
+                <div id="white_box" class="clearfix">
+                    <div id="white_box_content" class="clearfix">
+                         <h1>New Level Preview</h1>
+                        <hr>
+                          <p class="author">
+                            <span class="date"><h5>27 May 2014 22:51 CEST</h5></span>
+                        </p>
+                        <p>Here is a screenshot of a level I just created
 <center><br>
-<img src="/img/screenshots/kickingballs/Screen%20Shot%202014-05-27%20at%2020.06.36.png" alt="My helpful screenshot">
+<img id = "blogCenteredImage" src="/img/screenshots/kickingballs/Screen Shot 2014-05-27 at 20.06.36.png" >
 </center></p>
 
-                    <br>
-                    <!-- Go to your Addthis.com Dashboard to update any options -->
-                    <div class="addthis_sharing_toolbox"></div>
-                    
-                    <h5>
+                        <br>
+                        <!-- Go to your Addthis.com Dashboard to update any options -->
+                        <div class="addthis_sharing_toolbox"></div>
                         
-        
-                             
+                        <h5>
                             
+            
                                  
-                                        
-                              
-                        
-                        
-        
-                             
+                                
+                                     
+                                            
+                                  
                             
+                            
+            
                                  
-                                        
-                              
-                        
-                        
-        
-                             
+                                
+                                     
+                                            
+                                  
                             
-                             
                             
+            
                                  
+                                
+                                     
+                                            
+                                  
+                            
+                            
+            
+                                 
+                                
+                                 
+                                
+                                     
+                                            
+                                  
+                                     
                                         
-                              
+                                    
+                            
+                                
+                            
+                            
+            
+                                 
+                                
+                                 
+                                
+                                 
                                  
                                     
-                                
-                        
+                                            
+                                  
                             
-                        
-                        
-        
-                             
                             
-                             
-                            
-                             
-                             
-                                
-                                        
-                              
-                        
-                        
-        
-                             
-                            
-                             
-                            
+            
                                  
-                                        
-                              
+                                
                                  
+                                
+                                     
+                                            
+                                  
+                                     
+                                        
                                     
+                            
                                 
-                        
                             
-                        
-                        
-        
-                             
                             
-                             
-                            
+            
                                  
-                                        
-                              
+                                
                                  
-                                    
-                                       
-                                    <a  href="/tag/gamedev/index.html"> Tag: gamedev</a>
+                                
+                                     
+                                            
+                                  
+                                     
                                         
-                        
+                                           
+                                        <a  href="/tag/gamedev/index.html"> Tag: gamedev</a>
+                                            
                             
+                                
+                            
+                            
+                       </h5>  
                         
-                        
-                   </h5>  
-                    
+                    </div>
                 </div>
-            </div>
           
             
             
@@ -207,32 +241,33 @@
                 
         
             
-            
-            
-            <div id="white_box" class="clearfix">
-                <div id="content" class="clearfix">
-                  <div id="disqus_thread"></div>
-                    <script type="text/javascript">
-                        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                        var disqus_shortname = 'foureyedcat'; // required: replace example with your forum shortname
                 
-                        /* * * DON'T EDIT BELOW THIS LINE * * */
-                        (function() {
-                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
+            <div id="nav_box" class = "clearfix">
                 </div>
-            </div>
-            
-            <br>
-            <br>
-            <br>
-
+                <div id="white_box" class="clearfix">
+                    <div id="white_box_content" class="clearfix">
+                      <div id="disqus_thread"></div>
+                        <script type="text/javascript">
+                            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                            var disqus_shortname = 'foureyedcat'; // required: replace example with your forum shortname
+                    
+                            /* * * DON'T EDIT BELOW THIS LINE * * */
+                            (function() {
+                                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+                    </div>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+            </div>    
         </div>
   
            

@@ -234,8 +234,10 @@ border: none;
 
 #imageCarrouselHolderBox {
 	height: auto;
-	margin: 42px auto 0;
+	margin: auto;
 	width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #imageCarrousel .item{
@@ -247,12 +249,15 @@ border: none;
   height: auto;
 }
 
+
 #reviewCarrousel .item
 {
  width: 100%; 
     height: auto;
     margin: 3px;
- color: rgb(83, 115, 203);
+ color: rgb(142, 160, 104);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 	
 
@@ -323,6 +328,7 @@ border: none;
     }
 
 #appleBadge {
+        margin-top: 20px;
 		max-width: 160px;
 		min-height: 50px;
 	}
@@ -372,6 +378,8 @@ margin-top: 10px;
 #imageCarrouselHolderBox {
 		height: 89.119171%;
 		width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 	}
 
 }
