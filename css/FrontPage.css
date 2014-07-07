@@ -18,7 +18,7 @@ h5{
 
 hr {
   border: 0;
-  width: 90%;
+  width: 100%;
     color: #4253a0;
  background-color: rgba(96, 107, 155, 0.45);
 height: 2px;
@@ -68,9 +68,9 @@ p{
 #white_box_content {
     float: none;
     height: auto;
-    margin: 5.923421% 5.923421% 5.923421% 5.923421%;
+    margin: 6%;
     clear: none;
-    width: 90.404183%;
+    width: auto;
     min-height: 20px;
 }
 
