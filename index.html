@@ -1,48 +1,44 @@
 ---
 layout: front
 ---
-      
     
-    {% for post in paginator.posts %}
-        
-        {% unless forloop.first %}
-        
-        <div id= "nav_box">
-        </div>
-            <div id="white_box" class="clearfix">
+   <div id="white_box" class="clearfix">
                 
-        <!-- Go to your Addthis.com Dashboard to update any options -->
-                
-              <!--  <div id="sharingbutton" class="addthis_sharing_toolbox"></div>-->
+    
                 
                 <div id="white_box_content" class="clearfix">
         
             
             
-        
+          <div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+    
                     
-                    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                    <hr>
-                    <p class="author">
-                        <span class="date"><h5>{{ post.date | date_to_long_string}} {{ post.date | date: "%H:%M %Z" }}</h5></span>
-                    </p>
-                    <div class="content">
-                        {{ post.excerpt }}
-                        
-                       <br>
-                    </div>
-                    <span ><a href="{{ post.url }}"> continue reading &raquo;</a></span>
                 </div>
             </div>
-            {% endunless %}
-    {% endfor %}
-
+            
 
 
 
 
         <div id= "nav_box">
 </div>
+
+<div id="white_box" class="clearfix">
+    <div id="white_box_content" class="clearfix">
+        <h1>Games Made By Four Eyed Cat:</h1>
+        <hr>
+    </div>
+    
+</div>
+         
+        <div id= "nav_box">
+</div>
+
+
             <div id="white_box" class="clearfix">
                 
         <!-- Go to your Addthis.com Dashboard to update any options -->
