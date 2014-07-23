@@ -143,17 +143,23 @@ width: 100%;
 
 #badgeBox
 {
-	height: 77px;
+	height: auto;
 	margin: 10px auto;
 	width: 100%;
 }
 #appleBadge
 {
-	margin: 0 auto;
-	max-width: 16.436431%;
-	min-height: 40px;
+  
+    margin: auto;
+	max-width: 180px;
 }
 
+#playStoreBadge
+{
+
+    margin: auto;
+	max-width: 180px;
+}
 
 	
 
