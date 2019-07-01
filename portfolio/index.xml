@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Four Eyed Cat</title>
-    <link>http://foureyedcat.com/portfolio/</link>
+    <link>https://ashwin911.github.io/portfolio/</link>
     <description>Recent content in Portfolio on Four Eyed Cat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
     
-	<atom:link href="http://foureyedcat.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ashwin911.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
