@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Four Eyed Cat</title>
-    <link>https://ashwin911.github.io/categories/</link>
+    <link>http://foureyedcat.com/categories/</link>
     <description>Recent content in Categories on Four Eyed Cat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://ashwin911.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://foureyedcat.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
