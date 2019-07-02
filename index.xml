@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Four Eyed Cat</title>
-    <link>http://foureyedcat.com/</link>
+    <link>https://foureyedcat.com/</link>
     <description>Recent content on Four Eyed Cat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2019 12:14:34 +0600</lastBuildDate>
     
-	<atom:link href="http://foureyedcat.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://foureyedcat.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New Website</title>
-      <link>http://foureyedcat.com/blog/newwebsitepost/</link>
+      <link>https://foureyedcat.com/blog/newwebsitepost/</link>
       <pubDate>Tue, 02 Jul 2019 12:14:34 +0600</pubDate>
       
-      <guid>http://foureyedcat.com/blog/newwebsitepost/</guid>
+      <guid>https://foureyedcat.com/blog/newwebsitepost/</guid>
       <description>Welcome to the new Four Eyed Cat website. The studio is currently working on a hidden object game.</description>
     </item>
     
