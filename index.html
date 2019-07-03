@@ -49,7 +49,7 @@
         
         
         <li class="nav-item">
-          <a class="nav-link" href="https://foureyedcat.com/untitledProject">Untitled Game</a>
+          <a class="nav-link" href="https://foureyedcat.com/untitledgame">Untitled Game</a>
         </li>
         
         
@@ -129,9 +129,12 @@
           
        <div class="row">
         <div class="col-sm-3 mx-auto text-right">
-            
-            <video src="/videos/walk cycle loop.mp4" width="180" autoplay="" loop="" playsinline=""></video>
-            
+            <video onloadeddata="this.play();" width="180" playsinline loop muted autoplay="autoplay">
+                <source src="/videos/walk cycle loop.mp4" type="video/mp4" />
+                <source src="https://giant.gfycat.com/FirsthandExaltedAuklet.webm" type="video/webm" />
+            </video>
+        
+        
         </div>    
         <div class="col-lg-8 mx-auto text-left">
           <h6 class="section-title small">INDIE GAME STUDIO</h6>
