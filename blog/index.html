@@ -135,26 +135,41 @@
         </div>
 
 
-
         <div class="col-lg-5 px-6">
            <h5 class="text-light">Newsletter</h5>
+           
                 <form action="https://sendy.foureyedcat.com/subscribe" method="POST" accept-charset="utf-8">
                     <div class="row">    
-                         <div class="col-lg-4 mx-auto">
+                         <div class="col-lg-4">
 	                        <label class="font-secondary text-white mr-3" for="name">Name</label>
-                            <input class="w-100" type="text" name="name" id="name"/>
+                            <input class="w-120" type="text" name="name" id="name"/>
             
                         </div>
-                        <div class="col-lg-4 mx-auto">
+                        <div class="col-lg-4 mx-auto mb-3">
                             <label class="font-secondary text-white mr-3" for="email">Email</label>
-                            <input class="w-100" type="email" name="email" id="email"/>
+                            <input class="w-120" type="email" name="email" id="email"/>
+                            </br>
                         </div>
-                        <div class="col-lg-4  mx-auto">
-                        <div class="g-recaptcha" data-sitekey="6LfsHa4UAAAAACcTZp9pK6_KRzdnUEmVyRHDP7MX"></div>
-
-                         <input class="btn btn-xs mt-2 btn-secondary" type="submit" name="submit" id="submit" value="Submit"/>
+                    </div>
+                        </br>
+                        <div class="row"> 
+                            <div class="col-lg-12  mx-auto mt-1">
+                                <label class="containerGDPR"> <h6 class="text-white">I agree to my email being stored and used to receive the newsletter</h6> 
+                                    <input type="checkbox" name="gdpr" id="gdpr"/>
+                                    <span class="checkmark"></span>
+                               
+                                </label>
+                       
+                                <div class="row"> 
+                                    <div class="col-lg-7  mx-auto mt-1">
+                                        <div class="g-recaptcha" data-theme="dark" data-sitekey="6LfsHa4UAAAAACcTZp9pK6_KRzdnUEmVyRHDP7MX"></div>
+                                    </div>    
+                                    <div class="col-lg-5  mx-auto mt-1">
+                                        <input class="btn btn-xs mt-2 px-4 btn-secondary" type="submit" name="submit" id="submit" value="   Submit  "/>
+                                    </div>
+                                </div>
+                           </div>
                         </div>
-                    </div>    
           
                     <input type="hidden" name="hp" id="hp"/>
                     <input type="hidden" name="list" value="763avou27LqtgFPyuv94jONA"/>
@@ -174,6 +189,16 @@
     <p class="mb-0 text-light">&#169; 2019 Four Eyed Cat All rights reserved.</p>
     <p class="mb-0 text-light">Powered by <a href="https://themefisher.com/best-hugo-themes">Hugo Themes</a></p>
   </div>
+       <div id="overlayGDPR">
+      <div id="popupGDPR">
+        <div id="closeGDPR">X</div>
+        <h2>Consent</h2>
+        <span><strong>Marketing permission</strong>: I give my consent to  to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at info@foureyedcat.com. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/>
+       </div>
+    </div>
 </footer>
 
 
